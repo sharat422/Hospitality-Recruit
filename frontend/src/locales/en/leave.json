@@ -1,0 +1,20 @@
+{
+  "appliedOn": "Applied on",
+  "applyLeave": "Apply for leave",
+  "approve": "Approve",
+  "approved": "Approved",
+  "balance": "Balance",
+  "daysRequested": "Days requested",
+  "decidedBy": "Decided by",
+  "escalated": "Sent to Department Head",
+  "fromDate": "From date",
+  "leaveType": "Leave type",
+  "noBalance": "Not enough balance",
+  "pending": "Pending",
+  "reason": "Reason",
+  "reject": "Reject",
+  "rejected": "Rejected",
+  "sendToDeptHead": "Send to Department Head",
+  "title": "Leave",
+  "toDate": "To date"
+}

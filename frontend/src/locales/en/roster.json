@@ -1,0 +1,21 @@
+{
+  "assign": "Assign",
+  "draft": "Draft",
+  "endTime": "End time",
+  "evening": "Evening",
+  "findReplacement": "Find replacement",
+  "morning": "Morning",
+  "night": "Night",
+  "offDuty": "Off duty",
+  "onDuty": "On duty",
+  "publish": "Publish",
+  "published": "Published",
+  "replacement": "Replacement",
+  "shift": "Shift",
+  "split": "Split Shift",
+  "startTime": "Start time",
+  "swapRequest": "Shift swap request",
+  "title": "Duty Roster",
+  "unassigned": "Not assigned",
+  "weeklyOff": "Weekly Off"
+}

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\Users\\\\tapaw\\\\repos\\\\Hospitality-Recruit\\\\backend\\\\venv\\\\Scripts\\\\python.exe\" -c \"import fastapi, uvicorn; print\\('OK'\\)\" 2>&1)",
+      "PowerShell(& \"C:\\\\Users\\\\tapaw\\\\repos\\\\Hospitality-Recruit\\\\backend\\\\venv\\\\Scripts\\\\pip.exe\" install fastapi \"uvicorn[standard]\" \"pydantic>=2.5.0\" pydantic-settings \"supabase>=2.4.0\" \"python-jose[cryptography]\" python-multipart httpx celery redis twilio stripe anthropic openai sqlalchemy alembic pyjwt python-dotenv 2>&1)",
+      "PowerShell(Invoke-RestMethod -Uri \"http://localhost:8000/api/v1/demo/request\" -Method POST -ContentType \"application/json\" -Body '{\"first_name\":\"Test\",\"last_name\":\"User\",\"email\":\"test@test.com\",\"company_name\":\"TestCo\"}' 2>&1)",
+      "PowerShell(& \"C:\\\\Users\\\\tapaw\\\\repos\\\\Hospitality-Recruit\\\\backend\\\\venv\\\\Scripts\\\\pip.exe\" install pypdf boto3 python-multipart 2>&1)",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\tapaw\\\\repos\\\\Hospitality-Recruit\\\\frontend\"; $out = npx tsc --noEmit 2>&1; $out | Where-Object { $_ -notmatch \"SchedulerDashboard\" } | Select-Object -First 40)",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\tapaw\\\\repos\\\\Hospitality-Recruit\\\\frontend\"; npx tsc --noEmit 2>&1 | Where-Object { $_ -match \"\\(CandidatePipeline|ReactivationDashboard|MatchScoreCard|AppRouter\\\\.tsx|AppLayout\\\\.tsx|MatchingDashboard\\)\" })",
+      "Bash(python -c \"from app.main import app; print\\('import OK'\\)\")"
+    ]
+  }
+}

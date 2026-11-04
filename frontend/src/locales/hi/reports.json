@@ -1,0 +1,15 @@
+{
+  "absentToday": "आज अनुपस्थित",
+  "attendanceReport": "उपस्थिति रिपोर्ट",
+  "dateRange": "तिथि सीमा",
+  "exportCsv": "सीएसवी निर्यात",
+  "generatedOn": "तैयार तिथि",
+  "headcount": "कर्मचारी संख्या",
+  "onLeave": "अवकाश पर",
+  "overtimeReport": "ओटी रिपोर्ट",
+  "presentToday": "आज उपस्थित",
+  "shortBy": "कमी",
+  "summary": "सारांश",
+  "title": "रिपोर्ट",
+  "totalStaff": "कुल स्टाफ"
+}

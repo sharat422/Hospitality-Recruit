@@ -1,0 +1,18 @@
+{
+  "agencyName": "ஏஜென்சி பெயர்",
+  "complianceDocs": "இணக்க ஆவணங்கள்",
+  "contract": "ஒப்பந்தம்",
+  "contractExpiry": "ஒப்பந்த முடிவு",
+  "deployedWorkers": "பணியில் உள்ள ஊழியர்",
+  "esiChallan": "ஈஎஸ்ஐ சலான்",
+  "expired": "காலாவதியானது",
+  "expiringSoon": "விரைவில் முடிகிறது",
+  "licence": "உரிம எண்",
+  "licenceExpiry": "உரிம முடிவு",
+  "notVerified": "சரிபார்க்கப்படவில்லை",
+  "pfChallan": "பிஎஃப் சலான்",
+  "policeVerification": "காவல்துறை சரிபார்ப்பு",
+  "title": "ஏஜென்சி ஊழியர்",
+  "uploadDocument": "ஆவணம் பதிவேற்று",
+  "verified": "சரிபார்க்கப்பட்டது"
+}

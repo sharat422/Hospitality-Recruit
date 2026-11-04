@@ -1,0 +1,15 @@
+{
+  "absentToday": "Absent today",
+  "attendanceReport": "Attendance report",
+  "dateRange": "Date range",
+  "exportCsv": "Export CSV",
+  "generatedOn": "Generated on",
+  "headcount": "Headcount",
+  "onLeave": "On leave",
+  "overtimeReport": "OT report",
+  "presentToday": "Present today",
+  "shortBy": "Short by",
+  "summary": "Summary",
+  "title": "Reports",
+  "totalStaff": "Total staff"
+}

@@ -1,0 +1,15 @@
+{
+  "absentToday": "இன்று வராதவர்",
+  "attendanceReport": "வருகை அறிக்கை",
+  "dateRange": "தேதி வரம்பு",
+  "exportCsv": "சிஎஸ்வி ஏற்றுமதி",
+  "generatedOn": "உருவாக்கப்பட்ட நாள்",
+  "headcount": "ஊழியர் எண்ணிக்கை",
+  "onLeave": "விடுப்பில்",
+  "overtimeReport": "ஓடீ அறிக்கை",
+  "presentToday": "இன்று வந்தவர்",
+  "shortBy": "பற்றாக்குறை",
+  "summary": "சுருக்கம்",
+  "title": "அறிக்கைகள்",
+  "totalStaff": "மொத்த ஊழியர்"
+}

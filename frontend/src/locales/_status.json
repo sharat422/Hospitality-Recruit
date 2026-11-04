@@ -1,0 +1,10 @@
+{
+  "sourceLanguage": "en",
+  "note": "Keys NOT listed under reviewedKeys are treated as needs_review.",
+  "reviewedKeys": {
+    "hi": [],
+    "te": [],
+    "ta": [],
+    "kn": []
+  }
+}

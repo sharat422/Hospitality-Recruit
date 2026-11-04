@@ -1,0 +1,18 @@
+{
+  "agencyName": "ఏజెన్సీ పేరు",
+  "complianceDocs": "సమ్మతి పత్రాలు",
+  "contract": "ఒప్పందం",
+  "contractExpiry": "ఒప్పందం ముగింపు",
+  "deployedWorkers": "నియమించిన కార్మికులు",
+  "esiChallan": "ఈఎస్ఐ చలాన్",
+  "expired": "ముగిసింది",
+  "expiringSoon": "త్వరలో ముగుస్తుంది",
+  "licence": "లైసెన్స్ నంబర్",
+  "licenceExpiry": "లైసెన్స్ ముగింపు",
+  "notVerified": "ధృవీకరించలేదు",
+  "pfChallan": "పీఎఫ్ చలాన్",
+  "policeVerification": "పోలీస్ ధృవీకరణ",
+  "title": "ఏజెన్సీ సిబ్బంది",
+  "uploadDocument": "పత్రం అప్‌లోడ్ చేయండి",
+  "verified": "ధృవీకరించబడింది"
+}

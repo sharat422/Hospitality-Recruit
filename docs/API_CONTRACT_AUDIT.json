@@ -1,0 +1,210 @@
+{
+  "scope": "Literal api/apiClient calls compared to registered OpenAPI method/path pairs. Dynamic URLs require review.",
+  "matched": 285,
+  "unmatched": [
+    {
+      "file": "../frontend/src/components/ATSSettings.tsx",
+      "line": 391,
+      "method": "GET",
+      "path": "/api/v1/ats/status"
+    },
+    {
+      "file": "../frontend/src/components/ATSSettings.tsx",
+      "line": 395,
+      "method": "GET",
+      "path": "/api/v1/ats/jobs"
+    },
+    {
+      "file": "../frontend/src/components/ATSSettings.tsx",
+      "line": 399,
+      "method": "GET",
+      "path": "/api/v1/ats/sync-logs"
+    },
+    {
+      "file": "../frontend/src/components/ATSSettings.tsx",
+      "line": 419,
+      "method": "GET",
+      "path": "/api/v1/ats/oauth-url"
+    },
+    {
+      "file": "../frontend/src/components/ATSSettings.tsx",
+      "line": 436,
+      "method": "POST",
+      "path": "/api/v1/ats/disconnect"
+    },
+    {
+      "file": "../frontend/src/components/ATSSettings.tsx",
+      "line": 439,
+      "method": "GET",
+      "path": "/api/v1/ats/status"
+    },
+    {
+      "file": "../frontend/src/components/ATSSettings.tsx",
+      "line": 461,
+      "method": "POST",
+      "path": "/api/v1/ats/jobs/sync"
+    },
+    {
+      "file": "../frontend/src/components/ATSSettings.tsx",
+      "line": 466,
+      "method": "GET",
+      "path": "/api/v1/ats/jobs"
+    },
+    {
+      "file": "../frontend/src/components/SchedulerDashboard.tsx",
+      "line": 340,
+      "method": "GET",
+      "path": "/api/v1/scheduler/dashboard/pending"
+    },
+    {
+      "file": "../frontend/src/components/SchedulerDashboard.tsx",
+      "line": 344,
+      "method": "GET",
+      "path": "/api/v1/scheduler/dashboard/metrics"
+    },
+    {
+      "file": "../frontend/src/components/SchedulerDashboard.tsx",
+      "line": 397,
+      "method": "POST",
+      "path": "/api/v1/scheduler/interviews/{}/manager/approve"
+    },
+    {
+      "file": "../frontend/src/components/ScreeningChatbotDashboard.tsx",
+      "line": 59,
+      "method": "GET",
+      "path": "/api/v1/screening/session/{}"
+    },
+    {
+      "file": "../frontend/src/components/ScreeningChatbotDashboard.tsx",
+      "line": 71,
+      "method": "GET",
+      "path": "/api/v1/screening/session/{}/transcript"
+    },
+    {
+      "file": "../frontend/src/hooks/useApiFunctions.ts",
+      "line": 48,
+      "method": "POST",
+      "path": "/api/v1/screening/{}/screen"
+    },
+    {
+      "file": "../frontend/src/pages/AccommodationTransport.tsx",
+      "line": 12,
+      "method": "POST",
+      "path": "/api/v1/facilities/{}"
+    },
+    {
+      "file": "../frontend/src/pages/BillingDashboard.tsx",
+      "line": 98,
+      "method": "GET",
+      "path": "/api/v1/billing/status"
+    },
+    {
+      "file": "../frontend/src/pages/BillingDashboard.tsx",
+      "line": 99,
+      "method": "GET",
+      "path": "/api/v1/billing/invoices"
+    },
+    {
+      "file": "../frontend/src/pages/BillingDashboard.tsx",
+      "line": 124,
+      "method": "POST",
+      "path": "/api/v1/billing/cancel-subscription"
+    },
+    {
+      "file": "../frontend/src/pages/BillingDashboard.tsx",
+      "line": 144,
+      "method": "POST",
+      "path": "/api/v1/billing/checkout/credits"
+    },
+    {
+      "file": "../frontend/src/pages/CandidatePipeline.tsx",
+      "line": 101,
+      "method": "GET",
+      "path": "/api/v1/candidates"
+    },
+    {
+      "file": "../frontend/src/pages/CandidatePipeline.tsx",
+      "line": 106,
+      "method": "GET",
+      "path": "/api/v1/candidates"
+    },
+    {
+      "file": "../frontend/src/pages/DiversityDashboard.tsx",
+      "line": 248,
+      "method": "GET",
+      "path": "/api/v1/diversity/gender-breakdown{}"
+    },
+    {
+      "file": "../frontend/src/pages/DiversityDashboard.tsx",
+      "line": 249,
+      "method": "GET",
+      "path": "/api/v1/diversity/pwd-metrics{}"
+    },
+    {
+      "file": "../frontend/src/pages/DiversityDashboard.tsx",
+      "line": 250,
+      "method": "GET",
+      "path": "/api/v1/diversity/pay-gap{}"
+    },
+    {
+      "file": "../frontend/src/pages/EmployeeExitManagement.tsx",
+      "line": 17,
+      "method": "POST",
+      "path": "/api/v1/employee-exit/cases/{}/{}"
+    },
+    {
+      "file": "../frontend/src/pages/GrievanceManagement.tsx",
+      "line": 8,
+      "method": "GET",
+      "path": "/api/v1/grievances/cases${filter"
+    },
+    {
+      "file": "../frontend/src/pages/GrievanceManagement.tsx",
+      "line": 11,
+      "method": "POST",
+      "path": "/api/v1/grievances/cases/{}/{}"
+    },
+    {
+      "file": "../frontend/src/pages/MobileFeatureHub.tsx",
+      "line": 90,
+      "method": "GET",
+      "path": "/api/v1/candidates/job-roles"
+    },
+    {
+      "file": "../frontend/src/pages/PayrollDashboard.tsx",
+      "line": 12,
+      "method": "POST",
+      "path": "/api/v1/payroll/runs/{}/{}"
+    },
+    {
+      "file": "../frontend/src/pages/PricingPage.tsx",
+      "line": 200,
+      "method": "GET",
+      "path": "/api/v1/billing/pricing/tiers"
+    },
+    {
+      "file": "../frontend/src/pages/PricingPage.tsx",
+      "line": 217,
+      "method": "POST",
+      "path": "/api/v1/billing/checkout"
+    },
+    {
+      "file": "../frontend/src/pages/QRCodeManager.tsx",
+      "line": 66,
+      "method": "GET",
+      "path": "/api/v1/candidates/job-roles"
+    },
+    {
+      "file": "../frontend/src/pages/SmartRecruitment.tsx",
+      "line": 682,
+      "method": "POST",
+      "path": "/api/v1/distribution/{}/{}"
+    },
+    {
+      "file": "../frontend/src/pages/WorkforceScheduler.tsx",
+      "line": 26,
+      "method": "POST",
+      "path": "/api/v1/workforce-schedules/schedules/{}/{}"
+    }
+  ]
+}

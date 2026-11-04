@@ -1,0 +1,18 @@
+{
+  "agencyName": "ಏಜೆನ್ಸಿ ಹೆಸರು",
+  "complianceDocs": "ಅನುಸರಣೆ ದಾಖಲೆಗಳು",
+  "contract": "ಒಪ್ಪಂದ",
+  "contractExpiry": "ಒಪ್ಪಂದ ಮುಕ್ತಾಯ",
+  "deployedWorkers": "ನಿಯೋಜಿತ ಕಾರ್ಮಿಕರು",
+  "esiChallan": "ಇಎಸ್‌ಐ ಚಲನ್",
+  "expired": "ಅವಧಿ ಮುಗಿದಿದೆ",
+  "expiringSoon": "ಶೀಘ್ರದಲ್ಲಿ ಮುಕ್ತಾಯ",
+  "licence": "ಪರವಾನಗಿ ಸಂಖ್ಯೆ",
+  "licenceExpiry": "ಪರವಾನಗಿ ಮುಕ್ತಾಯ",
+  "notVerified": "ಪರಿಶೀಲಿಸಿಲ್ಲ",
+  "pfChallan": "ಪಿಎಫ್ ಚಲನ್",
+  "policeVerification": "ಪೊಲೀಸ್ ಪರಿಶೀಲನೆ",
+  "title": "ಏಜೆನ್ಸಿ ಸಿಬ್ಬಂದಿ",
+  "uploadDocument": "ದಾಖಲೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+  "verified": "ಪರಿಶೀಲಿಸಲಾಗಿದೆ"
+}

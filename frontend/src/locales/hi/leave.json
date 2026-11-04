@@ -1,0 +1,20 @@
+{
+  "appliedOn": "आवेदन तिथि",
+  "applyLeave": "अवकाश के लिए आवेदन",
+  "approve": "मंज़ूर करें",
+  "approved": "मंज़ूर",
+  "balance": "शेष",
+  "daysRequested": "माँगे गए दिन",
+  "decidedBy": "निर्णय करने वाले",
+  "escalated": "विभाग प्रमुख को भेजा गया",
+  "fromDate": "किस दिन से",
+  "leaveType": "अवकाश का प्रकार",
+  "noBalance": "पर्याप्त शेष नहीं",
+  "pending": "बाकी",
+  "reason": "कारण",
+  "reject": "अस्वीकार करें",
+  "rejected": "अस्वीकृत",
+  "sendToDeptHead": "विभाग प्रमुख को भेजें",
+  "title": "अवकाश",
+  "toDate": "किस दिन तक"
+}

@@ -1,0 +1,725 @@
+{
+  "scope": "Mobile-width route rendering, anonymous redirects and authenticated API error states; mocked network, not live E2E",
+  "results": [
+    {
+      "path": "/",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/"
+    },
+    {
+      "path": "/auth",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/auth/callback",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth/callback"
+    },
+    {
+      "path": "/employee-login",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/employee-login"
+    },
+    {
+      "path": "/employee-app",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/employee-profile",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/attendance",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/shifts",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/leave",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/payroll",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/employees/audit-id",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/hotels",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/certifications",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/performance",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/learning-career",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/employee-retention",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/employee-engagement",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/employee-exit",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/grievances",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/salary-advances",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/facilities",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/dashboard",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/analytics",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/workforce-analytics",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/reports",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/ai-assistant",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/matching",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/pipeline",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/reactivation",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/messaging",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/ghosting-risk",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/interviews",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/drip",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/nps",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/video-review/audit-id",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/qr-codes",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/mobile-features",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/india-compliance",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/rtw",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/compliance",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/privacy",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/dei",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/referrals",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/india-referrals",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/referral-portal",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/admin-referrals",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/diversity",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/kyc",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/dpdp-admin",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/smart-recruitment",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/whatsapp-bot",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/screening",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/india-onboarding",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/auth"
+    },
+    {
+      "path": "/india-apply/audit-id",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/india-apply/audit-id"
+    },
+    {
+      "path": "/privacy-centre/audit-id",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/privacy-centre/audit-id"
+    },
+    {
+      "path": "/rtw-upload/audit-id",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/rtw-upload/audit-id"
+    },
+    {
+      "path": "/track/audit-id",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/track/audit-id"
+    },
+    {
+      "path": "/schedule/audit-id",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/schedule/audit-id"
+    },
+    {
+      "path": "/apply/audit-id",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/apply/audit-id"
+    },
+    {
+      "path": "/video-interview/audit-id",
+      "authenticated": false,
+      "status": "passed",
+      "finalPath": "/video-interview/audit-id"
+    },
+    {
+      "path": "/",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/"
+    },
+    {
+      "path": "/auth",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/dashboard"
+    },
+    {
+      "path": "/auth/callback",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/auth/callback"
+    },
+    {
+      "path": "/employee-login",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/employee-app"
+    },
+    {
+      "path": "/employee-app",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/employee-app"
+    },
+    {
+      "path": "/employee-profile",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/employee-profile"
+    },
+    {
+      "path": "/attendance",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/attendance"
+    },
+    {
+      "path": "/shifts",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/shifts"
+    },
+    {
+      "path": "/leave",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/leave"
+    },
+    {
+      "path": "/payroll",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/payroll"
+    },
+    {
+      "path": "/employees/audit-id",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/employees/audit-id"
+    },
+    {
+      "path": "/hotels",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/hotels"
+    },
+    {
+      "path": "/certifications",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/certifications"
+    },
+    {
+      "path": "/performance",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/performance"
+    },
+    {
+      "path": "/learning-career",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/learning-career"
+    },
+    {
+      "path": "/employee-retention",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/employee-retention"
+    },
+    {
+      "path": "/employee-engagement",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/employee-engagement"
+    },
+    {
+      "path": "/employee-exit",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/employee-exit"
+    },
+    {
+      "path": "/grievances",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/grievances"
+    },
+    {
+      "path": "/salary-advances",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/salary-advances"
+    },
+    {
+      "path": "/facilities",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/facilities"
+    },
+    {
+      "path": "/dashboard",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/dashboard"
+    },
+    {
+      "path": "/analytics",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/analytics"
+    },
+    {
+      "path": "/workforce-analytics",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/workforce-analytics"
+    },
+    {
+      "path": "/reports",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/reports"
+    },
+    {
+      "path": "/ai-assistant",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/ai-assistant"
+    },
+    {
+      "path": "/matching",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/matching"
+    },
+    {
+      "path": "/pipeline",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/pipeline"
+    },
+    {
+      "path": "/reactivation",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/reactivation"
+    },
+    {
+      "path": "/messaging",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/messaging"
+    },
+    {
+      "path": "/ghosting-risk",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/ghosting-risk"
+    },
+    {
+      "path": "/interviews",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/interviews"
+    },
+    {
+      "path": "/drip",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/drip"
+    },
+    {
+      "path": "/nps",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/nps"
+    },
+    {
+      "path": "/video-review/audit-id",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/video-review/audit-id"
+    },
+    {
+      "path": "/qr-codes",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/qr-codes"
+    },
+    {
+      "path": "/mobile-features",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/mobile-features"
+    },
+    {
+      "path": "/india-compliance",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/india-compliance"
+    },
+    {
+      "path": "/rtw",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/india-compliance"
+    },
+    {
+      "path": "/compliance",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/india-compliance"
+    },
+    {
+      "path": "/privacy",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/india-compliance"
+    },
+    {
+      "path": "/dei",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/india-compliance"
+    },
+    {
+      "path": "/referrals",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/referrals"
+    },
+    {
+      "path": "/india-referrals",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/india-referrals"
+    },
+    {
+      "path": "/referral-portal",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/referral-portal"
+    },
+    {
+      "path": "/admin-referrals",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/admin-referrals"
+    },
+    {
+      "path": "/diversity",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/diversity"
+    },
+    {
+      "path": "/kyc",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/kyc"
+    },
+    {
+      "path": "/dpdp-admin",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/dpdp-admin"
+    },
+    {
+      "path": "/smart-recruitment",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/smart-recruitment"
+    },
+    {
+      "path": "/whatsapp-bot",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/whatsapp-bot"
+    },
+    {
+      "path": "/screening",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/screening"
+    },
+    {
+      "path": "/india-onboarding",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/india-onboarding"
+    },
+    {
+      "path": "/india-apply/audit-id",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/india-apply/audit-id"
+    },
+    {
+      "path": "/privacy-centre/audit-id",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/privacy-centre/audit-id"
+    },
+    {
+      "path": "/rtw-upload/audit-id",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/rtw-upload/audit-id"
+    },
+    {
+      "path": "/track/audit-id",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/track/audit-id"
+    },
+    {
+      "path": "/schedule/audit-id",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/schedule/audit-id"
+    },
+    {
+      "path": "/apply/audit-id",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/apply/audit-id"
+    },
+    {
+      "path": "/video-interview/audit-id",
+      "authenticated": true,
+      "status": "passed",
+      "finalPath": "/video-interview/audit-id"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "addCasual": "कैजुअल कामगार जोड़ें",
+  "availability": "कब उपलब्ध",
+  "bankTransfer": "बैंक ट्रांसफर",
+  "bookForShift": "शिफ्ट के लिए बुक करें",
+  "booked": "बुक किया",
+  "cash": "नकद",
+  "dayRate": "दैनिक दर",
+  "lastWorked": "पिछली बार काम",
+  "notAvailable": "उपलब्ध नहीं",
+  "paymentMode": "भुगतान का तरीका",
+  "perHour": "प्रति घंटा",
+  "perShift": "प्रति शिफ्ट",
+  "skills": "कौशल",
+  "title": "कैजुअल पूल"
+}

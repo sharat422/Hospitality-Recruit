@@ -1,0 +1,16 @@
+{
+  "addCasual": "Add casual worker",
+  "availability": "Available on",
+  "bankTransfer": "Bank transfer",
+  "bookForShift": "Book for shift",
+  "booked": "Booked",
+  "cash": "Cash",
+  "dayRate": "Day rate",
+  "lastWorked": "Last worked",
+  "notAvailable": "Not available",
+  "paymentMode": "Payment mode",
+  "perHour": "Per hour",
+  "perShift": "Per shift",
+  "skills": "Skills",
+  "title": "Casual Pool"
+}

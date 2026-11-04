@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\tapaw\\\\repos\\\\Hospitality-Recruit\" -Recurse -Directory)",
+      "Bash(dir /s \"backend\\\\app\\\\services\")",
+      "Bash(python -c ' *)",
+      "Bash(python -m pytest tests/test_shift_command.py -q --tb=short)",
+      "Bash(python -m pytest tests/test_hr_bot.py tests/test_command_parser.py tests/test_leave_command.py tests/test_payslip_command.py tests/test_shift_command.py -q --tb=short)",
+      "Bash(python -m pytest tests/test_hr_bot.py::TestComplaintHandler -q --tb=short)"
+    ]
+  }
+}

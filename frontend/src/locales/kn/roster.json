@@ -1,0 +1,21 @@
+{
+  "assign": "ನಿಯೋಜಿಸಿ",
+  "draft": "ಕರಡು",
+  "endTime": "ಮುಕ್ತಾಯ ಸಮಯ",
+  "evening": "ಸಂಜೆ",
+  "findReplacement": "ಬದಲಿ ಹುಡುಕಿ",
+  "morning": "ಬೆಳಿಗ್ಗೆ",
+  "night": "ರಾತ್ರಿ",
+  "offDuty": "ಡ್ಯೂಟಿ ಇಲ್ಲ",
+  "onDuty": "ಡ್ಯೂಟಿಯಲ್ಲಿ",
+  "publish": "ಪ್ರಕಟಿಸಿ",
+  "published": "ಪ್ರಕಟಿಸಲಾಗಿದೆ",
+  "replacement": "ಬದಲಿ",
+  "shift": "ಶಿಫ್ಟ್",
+  "split": "ಸ್ಪ್ಲಿಟ್ ಶಿಫ್ಟ್",
+  "startTime": "ಆರಂಭ ಸಮಯ",
+  "swapRequest": "ಶಿಫ್ಟ್ ಬದಲಾವಣೆ ವಿನಂತಿ",
+  "title": "ಡ್ಯೂಟಿ ರೋಸ್ಟರ್",
+  "unassigned": "ನಿಯೋಜಿಸಿಲ್ಲ",
+  "weeklyOff": "ವಾರದ ರಜೆ"
+}

@@ -1,0 +1,18 @@
+{
+  "agencyName": "एजेंसी का नाम",
+  "complianceDocs": "अनुपालन दस्तावेज़",
+  "contract": "अनुबंध",
+  "contractExpiry": "अनुबंध समाप्ति",
+  "deployedWorkers": "तैनात कामगार",
+  "esiChallan": "ईएसआई चालान",
+  "expired": "समाप्त",
+  "expiringSoon": "जल्द समाप्त",
+  "licence": "लाइसेंस नंबर",
+  "licenceExpiry": "लाइसेंस समाप्ति",
+  "notVerified": "असत्यापित",
+  "pfChallan": "पीएफ चालान",
+  "policeVerification": "पुलिस सत्यापन",
+  "title": "एजेंसी स्टाफ",
+  "uploadDocument": "दस्तावेज़ अपलोड करें",
+  "verified": "सत्यापित"
+}

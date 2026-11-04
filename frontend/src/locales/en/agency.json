@@ -1,0 +1,18 @@
+{
+  "agencyName": "Agency name",
+  "complianceDocs": "Compliance documents",
+  "contract": "Contract",
+  "contractExpiry": "Contract expiry",
+  "deployedWorkers": "Workers deployed",
+  "esiChallan": "ESI challan",
+  "expired": "Expired",
+  "expiringSoon": "Expiring soon",
+  "licence": "Licence number",
+  "licenceExpiry": "Licence expiry",
+  "notVerified": "Not verified",
+  "pfChallan": "PF challan",
+  "policeVerification": "Police verification",
+  "title": "Agency Staff",
+  "uploadDocument": "Upload document",
+  "verified": "Verified"
+}

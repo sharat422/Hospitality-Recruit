@@ -1,0 +1,15 @@
+{
+  "absentToday": "ಇಂದು ಗೈರು",
+  "attendanceReport": "ಹಾಜರಾತಿ ವರದಿ",
+  "dateRange": "ದಿನಾಂಕ ವ್ಯಾಪ್ತಿ",
+  "exportCsv": "ಸಿಎಸ್‌ವಿ ರಫ್ತು",
+  "generatedOn": "ಸಿದ್ಧಪಡಿಸಿದ ದಿನಾಂಕ",
+  "headcount": "ಸಿಬ್ಬಂದಿ ಸಂಖ್ಯೆ",
+  "onLeave": "ರಜೆಯಲ್ಲಿ",
+  "overtimeReport": "ಓಟಿ ವರದಿ",
+  "presentToday": "ಇಂದು ಹಾಜರು",
+  "shortBy": "ಕೊರತೆ",
+  "summary": "ಸಾರಾಂಶ",
+  "title": "ವರದಿಗಳು",
+  "totalStaff": "ಒಟ್ಟು ಸಿಬ್ಬಂದಿ"
+}
