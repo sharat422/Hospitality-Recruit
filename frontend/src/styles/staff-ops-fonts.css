@@ -1,0 +1,128 @@
+/**
+ * Staff Ops typography (requirements 4 and 5).
+ *
+ * A separate stylesheet so `index.css` is untouched: recruiting screens keep
+ * their current rendering exactly. Import this from Staff Ops screens only.
+ *
+ * Noto Sans covers Latin, Devanagari, Telugu, Tamil and Kannada with matched
+ * metrics, and ships on most Android builds — the webfont is the fallback for
+ * cheap handsets that lack a given script.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans+Kannada:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-staff-ops:
+    'Noto Sans',
+    'Noto Sans Devanagari',
+    'Noto Sans Telugu',
+    'Noto Sans Tamil',
+    'Noto Sans Kannada',
+    system-ui,
+    -apple-system,
+    sans-serif;
+
+  /* Latin is comfortable at 1.4. Indic scripts are not: Telugu and Kannada
+     stack vowel signs above and below the base glyph, and Devanagari hangs
+     matras off the headline. Below ~1.6 those marks get clipped by any
+     ancestor with overflow:hidden or a fixed height. */
+  --line-height-latin: 1.45;
+  --line-height-indic: 1.75;
+}
+
+.staff-ops {
+  font-family: var(--font-staff-ops);
+  line-height: var(--line-height-latin);
+}
+
+/* Applied by setting <html lang="..."> — changeLanguage() in staffOpsI18n does this. */
+:root:lang(hi) .staff-ops,
+:root:lang(te) .staff-ops,
+:root:lang(ta) .staff-ops,
+:root:lang(kn) .staff-ops {
+  line-height: var(--line-height-indic);
+}
+
+/* Vowel signs sit outside the nominal em box, so anything that clips content
+   must not also pin a height. These rules keep Indic text from being cut. */
+:root:lang(hi) .staff-ops :where(button, th, td, label, .badge, .chip),
+:root:lang(te) .staff-ops :where(button, th, td, label, .badge, .chip),
+:root:lang(ta) .staff-ops :where(button, th, td, label, .badge, .chip),
+:root:lang(kn) .staff-ops :where(button, th, td, label, .badge, .chip) {
+  line-height: var(--line-height-indic);
+  height: auto;
+  min-height: 0;
+  overflow: visible;
+  padding-block: 0.4em;
+}
+
+/**
+ * Requirement 5 — Tamil and Telugu words run 30-50% longer than English.
+ * Buttons and table headers wrap or shrink; they never overflow and never
+ * truncate to an ellipsis, because a half-shown Tamil word is unreadable.
+ */
+.staff-ops :where(button, .btn) {
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  text-align: center;
+  min-width: 0;
+}
+
+/**
+ * Table cells wrap between words, NOT at any character.
+ *
+ * `overflow-wrap: anywhere` was the first attempt and it technically
+ * prevented overflow — but in a 360px-wide table with many columns it broke
+ * Tamil headers one glyph per line ("ஊ / ழி / ய / ர்"), which passes an
+ * automated overflow check and is unreadable to a human. `break-word` only
+ * breaks a word that cannot fit on its own, and `min-width` stops a column
+ * collapsing to a single character.
+ *
+ * A wide table scrolls sideways inside its own wrapper instead; the page
+ * itself still never scrolls (see .staff-ops overflow-x below).
+ */
+.staff-ops :where(th, td) {
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
+  min-width: 7ch;
+  vertical-align: top;
+}
+
+/* Wrap any table that can exceed the viewport in this. */
+.staff-ops .table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+}
+
+.staff-ops .table-scroll > table {
+  min-width: max-content;
+}
+
+/* Tap targets stay at least 44px for a thumb, while still growing with text. */
+.staff-ops :where(button, .btn, a.btn, [role='button']) {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hard guard: nothing in Staff Ops may scroll the page sideways at 360px. */
+.staff-ops {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.staff-ops :where(table) {
+  width: 100%;
+  table-layout: auto;
+}
+
+/* Tabular figures keep roster and payroll columns aligned. Latin digits are
+   forced in format.ts, so this is safe for every language. */
+.staff-ops :where(.num, td.num, .tabular) {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum';
+}
