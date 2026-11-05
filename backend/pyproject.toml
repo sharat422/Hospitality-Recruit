@@ -1,0 +1,41 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "hosprecruit-ai"
+version = "0.1.0"
+description = "HospRecruit AI: Next-gen hospitality recruiting platform (2026)"
+authors = [{name = "HospRecruit", email = "dev@hosprecruit.ai"}]
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+uvicorn = {version = "^0.27.0", extras = ["standard"]}
+pydantic = "^2.5.0"
+pydantic-settings = "^2.1.0"
+supabase = "^2.4.0"
+python-jose = {version = "^3.3.0", extras = ["cryptography"]}
+python-multipart = "^0.0.6"
+httpx = "^0.25.0"
+celery = "^5.3.0"
+redis = "^5.0.0"
+twilio = "^9.0.0"
+stripe = "^8.5.0"
+anthropic = "^0.16.0"
+openai = "^1.3.0"
+sqlalchemy = "^2.0.0"
+alembic = "^1.13.0"
+pyjwt = "^2.8.0"
+python-dotenv = "^1.0.0"
+reportlab = "^4.2.0"
+pytest = "^7.4.0"
+pytest-asyncio = "^0.23.0"
+httpx-mock = "^0.30.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.0"
+ruff = "^0.1.0"
+mypy = "^1.7.0"
