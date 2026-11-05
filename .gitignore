@@ -1,0 +1,15 @@
+**/node_modules/
+**/venv/
+**/.venv*/
+**/__pycache__/
+**/.pytest_cache/
+**/coverage/
+**/dist/
+**/*.tsbuildinfo
+**/.env
+**/.env.local
+**/.env.*.local
+**/*audit*.log
+**/audit-dependencies.json
+frontend/vite.config.js
+frontend/vite.config.d.ts
